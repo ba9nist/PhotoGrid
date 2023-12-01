@@ -1,0 +1,1058 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03013EED307378B32BD2A27796610766 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8619CD96294408EF0B9BD271725342B3 /* Algorithm.swift */; };
+		061EA6F0CFD512C0932FBEC3B4DC8CC9 /* AZTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0860F1530E183DC61547CB81B83F26EC /* AZTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AAA441F11EA70733A84F620FE24FD03 /* AnyDifferentiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683977CC0FCF2B772CC3AD55EB79DCC0 /* AnyDifferentiable.swift */; };
+		0D967F5BBCE7E1D772A56BAAB7BE5EC4 /* AZTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555D65199F0A0E8C1DDF6EC4D0CB986 /* AZTabBarButton.swift */; };
+		1629381184E7C7003F02BCA63D2FE8AC /* StagedChangeset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57563C24C1384225D06DD194748F63A4 /* StagedChangeset.swift */; };
+		17E2B5230444C0D66D6831EDD54B5B6C /* AZTabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166D2C766DBB32E21842F183E8F91D12 /* AZTabBarDelegate.swift */; };
+		1BE7EA12238D41E3E5F28BC8C6F35722 /* AZTabBarButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA78F1871A2D6B9C1243860F27A05DD /* AZTabBarButtonDelegate.swift */; };
+		2ADBEF2E97ABC2517C363831FCB457D2 /* Differentiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BA89D6CC710C45D8648A6DF6AA113 /* Differentiable.swift */; };
+		2B80439EA7AAC26E66F5ABF60610B71F /* EasyNotificationBadge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65777C77D1B64CBEDEC39F5CD65FE302 /* EasyNotificationBadge-dummy.m */; };
+		2C8B67760B2B9C6B5CE8BA1C4C2EBE20 /* AZTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B0C9EB7AA6EDAADCA32B8316BF7E9D /* AZTabBar-dummy.m */; };
+		433B15B48503E62D00E92DEF4297A1A1 /* Changeset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A34EC4E88B239713DD0EEEE21ACA06 /* Changeset.swift */; };
+		487722E9FD1E2D8D97B7B52F866EE5ED /* Pods-PhotoGrid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D36BEA801FA80E36B720F1E583A64F0 /* Pods-PhotoGrid-dummy.m */; };
+		4CA2B04029FFFAFF6C5B5C8051B2B4F7 /* EasyNotificationBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D05819C5121316604DAD19726171D /* EasyNotificationBadge.swift */; };
+		4EFFDE4183E1C3CCDBAFB2B8A9B1C38F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		525EA70150AE182791A24A5959C46DAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		61D9FF28DCED7AFB902F65683D59EFA4 /* AZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9BDFA538F98256C003C168B4E7268D /* AZTabBarController.swift */; };
+		62D2A909342905EBDDE952A2DB16E615 /* Pods-PhotoGrid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C97B187BEAD35EF0455B8FB5DA81905 /* Pods-PhotoGrid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CC86F47E70E1F9B1CD6A013839C2E37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		8977A3DD754DE9C42FF43834E822C788 /* EasyNotificationBadge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2622C3C5821446F96D61326A3FA9D96 /* EasyNotificationBadge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B43F8EC7F97C488FB54E36272F8C242 /* DifferenceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CDFCD939190B15B329BCECA6F4924EB /* DifferenceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB84F3E98B02F8462946D00C1266965 /* ContentIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56F361ACB9548D71D94FBAC07F420BC /* ContentIdentifiable.swift */; };
+		9629E1DBC42AB1004D736179E97D7D6E /* DifferenceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42321D8D589C9873B3C2B35527C02172 /* DifferenceKit-dummy.m */; };
+		AAC0C4C4CA74C301C5A9629D1D12B349 /* DifferentiableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC60280FFD1CE6BA16E858E33FAAD71 /* DifferentiableSection.swift */; };
+		B6893B7869973468642494508EE25DFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		DC1BFB2F01DE594EF1508DEF52CBC2FC /* ContentEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C529C88981ABE97EA431D3318911581 /* ContentEquatable.swift */; };
+		E26D55830720DD7FC18EB70D18C30EDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		E44737E8FCB3E59CAB1A9EE376A762B1 /* ArraySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330E849FB02264A935CB4ADC152916AA /* ArraySection.swift */; };
+		E652C1190FC311FFC39929D9BF853FCB /* ElementPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF6D2BF48D42039411644CDFF4D7C0 /* ElementPath.swift */; };
+		FFF96F77652D53C90EFD8A952634B465 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A925C272FC337C69D46D10E2455AC /* UIKitExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BB7F92DECD0FAEC462A3C449D2C7DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0486FEB478200E32BC39FF467B1B333;
+			remoteInfo = AZTabBar;
+		};
+		666F6D22D8AC100C6912AC1D8702554F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954B559F947A92A9937D01300841CE4D;
+			remoteInfo = EasyNotificationBadge;
+		};
+		9345A6CAD4D26191DB0808B42BD097EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC6E51285E4FD828A61BEFD2100CD64;
+			remoteInfo = DifferenceKit;
+		};
+		A8764F66A193AA4BB05F8B8D80894081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954B559F947A92A9937D01300841CE4D;
+			remoteInfo = EasyNotificationBadge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		081983BDF4FFFCC7D0D0B3CEDD3EFD59 /* AZTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZTabBar-prefix.pch"; sourceTree = "<group>"; };
+		0860F1530E183DC61547CB81B83F26EC /* AZTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZTabBar-umbrella.h"; sourceTree = "<group>"; };
+		0E3BC001870BD88B566778FF14B59CA3 /* AZTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZTabBar.release.xcconfig; sourceTree = "<group>"; };
+		13B0C9EB7AA6EDAADCA32B8316BF7E9D /* AZTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZTabBar-dummy.m"; sourceTree = "<group>"; };
+		13BF6D2BF48D42039411644CDFF4D7C0 /* ElementPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementPath.swift; path = Sources/ElementPath.swift; sourceTree = "<group>"; };
+		166D2C766DBB32E21842F183E8F91D12 /* AZTabBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZTabBarDelegate.swift; path = Sources/AZTabBarDelegate.swift; sourceTree = "<group>"; };
+		1E8D05819C5121316604DAD19726171D /* EasyNotificationBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyNotificationBadge.swift; path = Sources/EasyNotificationBadge/EasyNotificationBadge.swift; sourceTree = "<group>"; };
+		2EC60280FFD1CE6BA16E858E33FAAD71 /* DifferentiableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DifferentiableSection.swift; path = Sources/DifferentiableSection.swift; sourceTree = "<group>"; };
+		2F63B90880E7D2DEFF2126B9474C17DD /* EasyNotificationBadge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyNotificationBadge-prefix.pch"; sourceTree = "<group>"; };
+		330E849FB02264A935CB4ADC152916AA /* ArraySection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArraySection.swift; path = Sources/ArraySection.swift; sourceTree = "<group>"; };
+		37A54D5E44EA1F3A99C64BAE6CCA2135 /* EasyNotificationBadge */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyNotificationBadge; path = EasyNotificationBadge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2D2A4B62F5D97EB3B04C8CF848370D /* Pods-PhotoGrid-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoGrid-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C97B187BEAD35EF0455B8FB5DA81905 /* Pods-PhotoGrid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoGrid-umbrella.h"; sourceTree = "<group>"; };
+		3E8F1CF78B1C8581CBC76FA4A60E4C19 /* DifferenceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DifferenceKit.modulemap; sourceTree = "<group>"; };
+		42321D8D589C9873B3C2B35527C02172 /* DifferenceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DifferenceKit-dummy.m"; sourceTree = "<group>"; };
+		4A4F58A39C92BB4A6DC5290951ED241B /* Pods-PhotoGrid */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PhotoGrid"; path = Pods_PhotoGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3BA89D6CC710C45D8648A6DF6AA113 /* Differentiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Differentiable.swift; path = Sources/Differentiable.swift; sourceTree = "<group>"; };
+		57563C24C1384225D06DD194748F63A4 /* StagedChangeset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StagedChangeset.swift; path = Sources/StagedChangeset.swift; sourceTree = "<group>"; };
+		5B9BDFA538F98256C003C168B4E7268D /* AZTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZTabBarController.swift; path = Sources/AZTabBarController.swift; sourceTree = "<group>"; };
+		5CDFCD939190B15B329BCECA6F4924EB /* DifferenceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DifferenceKit-umbrella.h"; sourceTree = "<group>"; };
+		5D36BEA801FA80E36B720F1E583A64F0 /* Pods-PhotoGrid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoGrid-dummy.m"; sourceTree = "<group>"; };
+		5DD96B2B5E4FE4BD8039A46EE51371DE /* EasyNotificationBadge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyNotificationBadge.debug.xcconfig; sourceTree = "<group>"; };
+		65777C77D1B64CBEDEC39F5CD65FE302 /* EasyNotificationBadge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyNotificationBadge-dummy.m"; sourceTree = "<group>"; };
+		683977CC0FCF2B772CC3AD55EB79DCC0 /* AnyDifferentiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyDifferentiable.swift; path = Sources/AnyDifferentiable.swift; sourceTree = "<group>"; };
+		6A6F25A38856F070C8D68217992B7F24 /* DifferenceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DifferenceKit-prefix.pch"; sourceTree = "<group>"; };
+		6C529C88981ABE97EA431D3318911581 /* ContentEquatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentEquatable.swift; path = Sources/ContentEquatable.swift; sourceTree = "<group>"; };
+		797B1BBC3E03CD39B8CB79D79BCFF843 /* DifferenceKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DifferenceKit; path = DifferenceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE92345773E6DAD17057B9030C5B775 /* EasyNotificationBadge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyNotificationBadge-Info.plist"; sourceTree = "<group>"; };
+		7D43EDFB31460994FCC3B6D3BA53FF40 /* DifferenceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DifferenceKit.release.xcconfig; sourceTree = "<group>"; };
+		8212D8E5AFC6DB085853E3B264652A74 /* Pods-PhotoGrid-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoGrid-frameworks.sh"; sourceTree = "<group>"; };
+		8619CD96294408EF0B9BD271725342B3 /* Algorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Algorithm.swift; path = Sources/Algorithm.swift; sourceTree = "<group>"; };
+		8F5A3B34293F7FEF585E60AA89847759 /* EasyNotificationBadge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyNotificationBadge.modulemap; sourceTree = "<group>"; };
+		9771D9FD808675DAA6189BF52A3DF3E2 /* Pods-PhotoGrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoGrid.release.xcconfig"; sourceTree = "<group>"; };
+		9D16762D2CF76CA986C18719BCE9735E /* DifferenceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DifferenceKit.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2622C3C5821446F96D61326A3FA9D96 /* EasyNotificationBadge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyNotificationBadge-umbrella.h"; sourceTree = "<group>"; };
+		A3A34EC4E88B239713DD0EEEE21ACA06 /* Changeset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Changeset.swift; path = Sources/Changeset.swift; sourceTree = "<group>"; };
+		A88D99A33EB78211CC63875F7D8EA2DC /* EasyNotificationBadge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyNotificationBadge.release.xcconfig; sourceTree = "<group>"; };
+		ADA78F1871A2D6B9C1243860F27A05DD /* AZTabBarButtonDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZTabBarButtonDelegate.swift; path = Sources/AZTabBarButtonDelegate.swift; sourceTree = "<group>"; };
+		B461CB56B3C2DFA644FC8A4A6307D376 /* Pods-PhotoGrid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PhotoGrid.modulemap"; sourceTree = "<group>"; };
+		B8A1530103CA2AC2DA20CEBB24D2D5AA /* AZTabBar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AZTabBar; path = AZTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF6298E20DEC2F88D72FDE20A415959 /* Pods-PhotoGrid-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoGrid-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC8A925C272FC337C69D46D10E2455AC /* UIKitExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtension.swift; path = Sources/Extensions/UIKitExtension.swift; sourceTree = "<group>"; };
+		C0607B2513CB6FCA01B665478302CA03 /* AZTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZTabBar.debug.xcconfig; sourceTree = "<group>"; };
+		C5BD6F64C9299F846C86F507E67E74A4 /* Pods-PhotoGrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoGrid.debug.xcconfig"; sourceTree = "<group>"; };
+		C5E54766AA694017CDC36978CDC294C6 /* AZTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AZTabBar.modulemap; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D56F361ACB9548D71D94FBAC07F420BC /* ContentIdentifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentIdentifiable.swift; path = Sources/ContentIdentifiable.swift; sourceTree = "<group>"; };
+		D900950912A2465D94C38674BF1B9E4E /* AZTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AZTabBar-Info.plist"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF853F6B78841AC8EC4CD5C6421DE22A /* DifferenceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DifferenceKit-Info.plist"; sourceTree = "<group>"; };
+		F555D65199F0A0E8C1DDF6EC4D0CB986 /* AZTabBarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZTabBarButton.swift; path = Sources/AZTabBarButton.swift; sourceTree = "<group>"; };
+		FA2A55014D3C61574F4584BC49432854 /* Pods-PhotoGrid-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoGrid-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01460236FA242846081F697CE1A4D975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26D55830720DD7FC18EB70D18C30EDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6638BFCA092C0C8EBFDC4F7F489E206C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC86F47E70E1F9B1CD6A013839C2E37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A8C6D842C450B80314D40D0C9F0A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6893B7869973468642494508EE25DFB /* Foundation.framework in Frameworks */,
+				4EFFDE4183E1C3CCDBAFB2B8A9B1C38F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E5CF7DFD3F489F0EB4809A996FE216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525EA70150AE182791A24A5959C46DAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		208096B78CA43FD8DD1F347942898CFE /* DifferenceKit */ = {
+			isa = PBXGroup;
+			children = (
+				C915ADA703D0FAA0509084984F7C25DE /* Core */,
+				6EBB9CDA9A38E62BF9759258D3C59036 /* Support Files */,
+				2E739D958F4C5D25A5B20841D6B60AB3 /* UIKitExtension */,
+			);
+			name = DifferenceKit;
+			path = DifferenceKit;
+			sourceTree = "<group>";
+		};
+		2E739D958F4C5D25A5B20841D6B60AB3 /* UIKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BC8A925C272FC337C69D46D10E2455AC /* UIKitExtension.swift */,
+			);
+			name = UIKitExtension;
+			sourceTree = "<group>";
+		};
+		450CD268EE1602DA49520E7CA0B58542 /* EasyNotificationBadge */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D05819C5121316604DAD19726171D /* EasyNotificationBadge.swift */,
+				A07B41BFDD858A0FDC32F33C58B084BC /* Support Files */,
+			);
+			name = EasyNotificationBadge;
+			path = EasyNotificationBadge;
+			sourceTree = "<group>";
+		};
+		4B910DDC06CD3512B90EF49F0A310B42 /* Pods-PhotoGrid */ = {
+			isa = PBXGroup;
+			children = (
+				B461CB56B3C2DFA644FC8A4A6307D376 /* Pods-PhotoGrid.modulemap */,
+				BBF6298E20DEC2F88D72FDE20A415959 /* Pods-PhotoGrid-acknowledgements.markdown */,
+				3A2D2A4B62F5D97EB3B04C8CF848370D /* Pods-PhotoGrid-acknowledgements.plist */,
+				5D36BEA801FA80E36B720F1E583A64F0 /* Pods-PhotoGrid-dummy.m */,
+				8212D8E5AFC6DB085853E3B264652A74 /* Pods-PhotoGrid-frameworks.sh */,
+				FA2A55014D3C61574F4584BC49432854 /* Pods-PhotoGrid-Info.plist */,
+				3C97B187BEAD35EF0455B8FB5DA81905 /* Pods-PhotoGrid-umbrella.h */,
+				C5BD6F64C9299F846C86F507E67E74A4 /* Pods-PhotoGrid.debug.xcconfig */,
+				9771D9FD808675DAA6189BF52A3DF3E2 /* Pods-PhotoGrid.release.xcconfig */,
+			);
+			name = "Pods-PhotoGrid";
+			path = "Target Support Files/Pods-PhotoGrid";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6EBB9CDA9A38E62BF9759258D3C59036 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E8F1CF78B1C8581CBC76FA4A60E4C19 /* DifferenceKit.modulemap */,
+				42321D8D589C9873B3C2B35527C02172 /* DifferenceKit-dummy.m */,
+				EF853F6B78841AC8EC4CD5C6421DE22A /* DifferenceKit-Info.plist */,
+				6A6F25A38856F070C8D68217992B7F24 /* DifferenceKit-prefix.pch */,
+				5CDFCD939190B15B329BCECA6F4924EB /* DifferenceKit-umbrella.h */,
+				9D16762D2CF76CA986C18719BCE9735E /* DifferenceKit.debug.xcconfig */,
+				7D43EDFB31460994FCC3B6D3BA53FF40 /* DifferenceKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DifferenceKit";
+			sourceTree = "<group>";
+		};
+		95CB427833F8E9D35C80BDCDAE0384D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5D968994B9F6B97C50FD0241D782AC7 /* AZTabBar */,
+				208096B78CA43FD8DD1F347942898CFE /* DifferenceKit */,
+				450CD268EE1602DA49520E7CA0B58542 /* EasyNotificationBadge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A07B41BFDD858A0FDC32F33C58B084BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F5A3B34293F7FEF585E60AA89847759 /* EasyNotificationBadge.modulemap */,
+				65777C77D1B64CBEDEC39F5CD65FE302 /* EasyNotificationBadge-dummy.m */,
+				7AE92345773E6DAD17057B9030C5B775 /* EasyNotificationBadge-Info.plist */,
+				2F63B90880E7D2DEFF2126B9474C17DD /* EasyNotificationBadge-prefix.pch */,
+				A2622C3C5821446F96D61326A3FA9D96 /* EasyNotificationBadge-umbrella.h */,
+				5DD96B2B5E4FE4BD8039A46EE51371DE /* EasyNotificationBadge.debug.xcconfig */,
+				A88D99A33EB78211CC63875F7D8EA2DC /* EasyNotificationBadge.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasyNotificationBadge";
+			sourceTree = "<group>";
+		};
+		A50E7AE374175246F028A2BF497FFA53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5E54766AA694017CDC36978CDC294C6 /* AZTabBar.modulemap */,
+				13B0C9EB7AA6EDAADCA32B8316BF7E9D /* AZTabBar-dummy.m */,
+				D900950912A2465D94C38674BF1B9E4E /* AZTabBar-Info.plist */,
+				081983BDF4FFFCC7D0D0B3CEDD3EFD59 /* AZTabBar-prefix.pch */,
+				0860F1530E183DC61547CB81B83F26EC /* AZTabBar-umbrella.h */,
+				C0607B2513CB6FCA01B665478302CA03 /* AZTabBar.debug.xcconfig */,
+				0E3BC001870BD88B566778FF14B59CA3 /* AZTabBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AZTabBar";
+			sourceTree = "<group>";
+		};
+		C5D968994B9F6B97C50FD0241D782AC7 /* AZTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F555D65199F0A0E8C1DDF6EC4D0CB986 /* AZTabBarButton.swift */,
+				ADA78F1871A2D6B9C1243860F27A05DD /* AZTabBarButtonDelegate.swift */,
+				5B9BDFA538F98256C003C168B4E7268D /* AZTabBarController.swift */,
+				166D2C766DBB32E21842F183E8F91D12 /* AZTabBarDelegate.swift */,
+				A50E7AE374175246F028A2BF497FFA53 /* Support Files */,
+			);
+			name = AZTabBar;
+			path = AZTabBar;
+			sourceTree = "<group>";
+		};
+		C915ADA703D0FAA0509084984F7C25DE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8619CD96294408EF0B9BD271725342B3 /* Algorithm.swift */,
+				683977CC0FCF2B772CC3AD55EB79DCC0 /* AnyDifferentiable.swift */,
+				330E849FB02264A935CB4ADC152916AA /* ArraySection.swift */,
+				A3A34EC4E88B239713DD0EEEE21ACA06 /* Changeset.swift */,
+				6C529C88981ABE97EA431D3318911581 /* ContentEquatable.swift */,
+				D56F361ACB9548D71D94FBAC07F420BC /* ContentIdentifiable.swift */,
+				4F3BA89D6CC710C45D8648A6DF6AA113 /* Differentiable.swift */,
+				2EC60280FFD1CE6BA16E858E33FAAD71 /* DifferentiableSection.swift */,
+				13BF6D2BF48D42039411644CDFF4D7C0 /* ElementPath.swift */,
+				57563C24C1384225D06DD194748F63A4 /* StagedChangeset.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CEBC7C85CB1580AE237EAA2357EAD3CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B910DDC06CD3512B90EF49F0A310B42 /* Pods-PhotoGrid */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				95CB427833F8E9D35C80BDCDAE0384D9 /* Pods */,
+				D96C6CC1B534B7100E1C151CE708384E /* Products */,
+				CEBC7C85CB1580AE237EAA2357EAD3CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D96C6CC1B534B7100E1C151CE708384E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8A1530103CA2AC2DA20CEBB24D2D5AA /* AZTabBar */,
+				797B1BBC3E03CD39B8CB79D79BCFF843 /* DifferenceKit */,
+				37A54D5E44EA1F3A99C64BAE6CCA2135 /* EasyNotificationBadge */,
+				4A4F58A39C92BB4A6DC5290951ED241B /* Pods-PhotoGrid */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		315BDBCDE272468F74596F3854ABAA9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D2A909342905EBDDE952A2DB16E615 /* Pods-PhotoGrid-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D312DC3E373E2A4D8767FEB153835A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061EA6F0CFD512C0932FBEC3B4DC8CC9 /* AZTabBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60552B726DD56EF0261C83A52D931C94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B43F8EC7F97C488FB54E36272F8C242 /* DifferenceKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C979F6830E29813E81D0DDFE4D8872 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8977A3DD754DE9C42FF43834E822C788 /* EasyNotificationBadge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8FC6E51285E4FD828A61BEFD2100CD64 /* DifferenceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27A3E3F884672E4FA813161663EDDDC /* Build configuration list for PBXNativeTarget "DifferenceKit" */;
+			buildPhases = (
+				60552B726DD56EF0261C83A52D931C94 /* Headers */,
+				491862B3408EDE8AF0781D93F6940610 /* Sources */,
+				83A8C6D842C450B80314D40D0C9F0A19 /* Frameworks */,
+				047A493EE4CDE033D4569A99A3603B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DifferenceKit;
+			productName = DifferenceKit;
+			productReference = 797B1BBC3E03CD39B8CB79D79BCFF843 /* DifferenceKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		954B559F947A92A9937D01300841CE4D /* EasyNotificationBadge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99346842CAF0CE2A066FDF0005AB9036 /* Build configuration list for PBXNativeTarget "EasyNotificationBadge" */;
+			buildPhases = (
+				91C979F6830E29813E81D0DDFE4D8872 /* Headers */,
+				3637B6F594AE94C21B4C2D4CBBCC2246 /* Sources */,
+				84E5CF7DFD3F489F0EB4809A996FE216 /* Frameworks */,
+				3C2D75F01656BB6A0C414AFCB5339960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyNotificationBadge;
+			productName = EasyNotificationBadge;
+			productReference = 37A54D5E44EA1F3A99C64BAE6CCA2135 /* EasyNotificationBadge */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFAE89CF735ECB30E13BBF6A23F55F20 /* Pods-PhotoGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FFE36259FE4D22761B4A116B48645B /* Build configuration list for PBXNativeTarget "Pods-PhotoGrid" */;
+			buildPhases = (
+				315BDBCDE272468F74596F3854ABAA9D /* Headers */,
+				7613757E9C0B22A21B280A7FD790F980 /* Sources */,
+				01460236FA242846081F697CE1A4D975 /* Frameworks */,
+				7E2BB87CAEDC2D898A440C78A254D037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA1166BB81F1CD990DE7B5ADDF4748C /* PBXTargetDependency */,
+				EA969E4D2D14C453A83402DB6A748C2D /* PBXTargetDependency */,
+				346CFD8764BCC3826BE320C2C6065A5B /* PBXTargetDependency */,
+			);
+			name = "Pods-PhotoGrid";
+			productName = Pods_PhotoGrid;
+			productReference = 4A4F58A39C92BB4A6DC5290951ED241B /* Pods-PhotoGrid */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0486FEB478200E32BC39FF467B1B333 /* AZTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B0CE630DB9E8F53406AE5CCB74B123 /* Build configuration list for PBXNativeTarget "AZTabBar" */;
+			buildPhases = (
+				52D312DC3E373E2A4D8767FEB153835A /* Headers */,
+				91ED75FCC5024651E98F11A79731F9EC /* Sources */,
+				6638BFCA092C0C8EBFDC4F7F489E206C /* Frameworks */,
+				7A8D6A54CA8D48AF6BA2BA813684DDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5BE70E90F75E4320FBA900EF690D9EF /* PBXTargetDependency */,
+			);
+			name = AZTabBar;
+			productName = AZTabBar;
+			productReference = B8A1530103CA2AC2DA20CEBB24D2D5AA /* AZTabBar */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D96C6CC1B534B7100E1C151CE708384E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0486FEB478200E32BC39FF467B1B333 /* AZTabBar */,
+				8FC6E51285E4FD828A61BEFD2100CD64 /* DifferenceKit */,
+				954B559F947A92A9937D01300841CE4D /* EasyNotificationBadge */,
+				DFAE89CF735ECB30E13BBF6A23F55F20 /* Pods-PhotoGrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047A493EE4CDE033D4569A99A3603B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2D75F01656BB6A0C414AFCB5339960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8D6A54CA8D48AF6BA2BA813684DDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2BB87CAEDC2D898A440C78A254D037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3637B6F594AE94C21B4C2D4CBBCC2246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA2B04029FFFAFF6C5B5C8051B2B4F7 /* EasyNotificationBadge.swift in Sources */,
+				2B80439EA7AAC26E66F5ABF60610B71F /* EasyNotificationBadge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491862B3408EDE8AF0781D93F6940610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03013EED307378B32BD2A27796610766 /* Algorithm.swift in Sources */,
+				0AAA441F11EA70733A84F620FE24FD03 /* AnyDifferentiable.swift in Sources */,
+				E44737E8FCB3E59CAB1A9EE376A762B1 /* ArraySection.swift in Sources */,
+				433B15B48503E62D00E92DEF4297A1A1 /* Changeset.swift in Sources */,
+				DC1BFB2F01DE594EF1508DEF52CBC2FC /* ContentEquatable.swift in Sources */,
+				8FB84F3E98B02F8462946D00C1266965 /* ContentIdentifiable.swift in Sources */,
+				9629E1DBC42AB1004D736179E97D7D6E /* DifferenceKit-dummy.m in Sources */,
+				2ADBEF2E97ABC2517C363831FCB457D2 /* Differentiable.swift in Sources */,
+				AAC0C4C4CA74C301C5A9629D1D12B349 /* DifferentiableSection.swift in Sources */,
+				E652C1190FC311FFC39929D9BF853FCB /* ElementPath.swift in Sources */,
+				1629381184E7C7003F02BCA63D2FE8AC /* StagedChangeset.swift in Sources */,
+				FFF96F77652D53C90EFD8A952634B465 /* UIKitExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7613757E9C0B22A21B280A7FD790F980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487722E9FD1E2D8D97B7B52F866EE5ED /* Pods-PhotoGrid-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91ED75FCC5024651E98F11A79731F9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8B67760B2B9C6B5CE8BA1C4C2EBE20 /* AZTabBar-dummy.m in Sources */,
+				0D967F5BBCE7E1D772A56BAAB7BE5EC4 /* AZTabBarButton.swift in Sources */,
+				1BE7EA12238D41E3E5F28BC8C6F35722 /* AZTabBarButtonDelegate.swift in Sources */,
+				61D9FF28DCED7AFB902F65683D59EFA4 /* AZTabBarController.swift in Sources */,
+				17E2B5230444C0D66D6831EDD54B5B6C /* AZTabBarDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		346CFD8764BCC3826BE320C2C6065A5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyNotificationBadge;
+			target = 954B559F947A92A9937D01300841CE4D /* EasyNotificationBadge */;
+			targetProxy = A8764F66A193AA4BB05F8B8D80894081 /* PBXContainerItemProxy */;
+		};
+		B5BE70E90F75E4320FBA900EF690D9EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyNotificationBadge;
+			target = 954B559F947A92A9937D01300841CE4D /* EasyNotificationBadge */;
+			targetProxy = 666F6D22D8AC100C6912AC1D8702554F /* PBXContainerItemProxy */;
+		};
+		EA969E4D2D14C453A83402DB6A748C2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DifferenceKit;
+			target = 8FC6E51285E4FD828A61BEFD2100CD64 /* DifferenceKit */;
+			targetProxy = 9345A6CAD4D26191DB0808B42BD097EA /* PBXContainerItemProxy */;
+		};
+		FCA1166BB81F1CD990DE7B5ADDF4748C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AZTabBar;
+			target = E0486FEB478200E32BC39FF467B1B333 /* AZTabBar */;
+			targetProxy = 1BB7F92DECD0FAEC462A3C449D2C7DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3353BE2148192808AFE7D26DA808A8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88D99A33EB78211CC63875F7D8EA2DC /* EasyNotificationBadge.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyNotificationBadge/EasyNotificationBadge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyNotificationBadge/EasyNotificationBadge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EasyNotificationBadge/EasyNotificationBadge.modulemap";
+				PRODUCT_MODULE_NAME = EasyNotificationBadge;
+				PRODUCT_NAME = EasyNotificationBadge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37152D2AB9B3685D36EFAE319CBAC10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9771D9FD808675DAA6189BF52A3DF3E2 /* Pods-PhotoGrid.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E656255C2B38C2E27C7E2FED6071306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3BC001870BD88B566778FF14B59CA3 /* AZTabBar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AZTabBar/AZTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZTabBar/AZTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AZTabBar/AZTabBar.modulemap";
+				PRODUCT_MODULE_NAME = AZTabBar;
+				PRODUCT_NAME = AZTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		768F75379704FFAA019E3FFFD58368F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5BD6F64C9299F846C86F507E67E74A4 /* Pods-PhotoGrid.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B34AB200419AAA57B4D049F93E72B221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D43EDFB31460994FCC3B6D3BA53FF40 /* DifferenceKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DifferenceKit/DifferenceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DifferenceKit/DifferenceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DifferenceKit/DifferenceKit.modulemap";
+				PRODUCT_MODULE_NAME = DifferenceKit;
+				PRODUCT_NAME = DifferenceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D482EA11570FCC801F5932320B2D0E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0607B2513CB6FCA01B665478302CA03 /* AZTabBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AZTabBar/AZTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZTabBar/AZTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AZTabBar/AZTabBar.modulemap";
+				PRODUCT_MODULE_NAME = AZTabBar;
+				PRODUCT_NAME = AZTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D90217ACCA0779B043514C6C3F071A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DD96B2B5E4FE4BD8039A46EE51371DE /* EasyNotificationBadge.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyNotificationBadge/EasyNotificationBadge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyNotificationBadge/EasyNotificationBadge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EasyNotificationBadge/EasyNotificationBadge.modulemap";
+				PRODUCT_MODULE_NAME = EasyNotificationBadge;
+				PRODUCT_NAME = EasyNotificationBadge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F45E5970F6CB3CBB15B742B25D864E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D16762D2CF76CA986C18719BCE9735E /* DifferenceKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DifferenceKit/DifferenceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DifferenceKit/DifferenceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DifferenceKit/DifferenceKit.modulemap";
+				PRODUCT_MODULE_NAME = DifferenceKit;
+				PRODUCT_NAME = DifferenceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38FFE36259FE4D22761B4A116B48645B /* Build configuration list for PBXNativeTarget "Pods-PhotoGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768F75379704FFAA019E3FFFD58368F2 /* Debug */,
+				37152D2AB9B3685D36EFAE319CBAC10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B0CE630DB9E8F53406AE5CCB74B123 /* Build configuration list for PBXNativeTarget "AZTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D482EA11570FCC801F5932320B2D0E35 /* Debug */,
+				3E656255C2B38C2E27C7E2FED6071306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99346842CAF0CE2A066FDF0005AB9036 /* Build configuration list for PBXNativeTarget "EasyNotificationBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90217ACCA0779B043514C6C3F071A54 /* Debug */,
+				3353BE2148192808AFE7D26DA808A8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27A3E3F884672E4FA813161663EDDDC /* Build configuration list for PBXNativeTarget "DifferenceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45E5970F6CB3CBB15B742B25D864E0F /* Debug */,
+				B34AB200419AAA57B4D049F93E72B221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

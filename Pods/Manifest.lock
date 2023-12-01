@@ -1,0 +1,29 @@
+PODS:
+  - AZTabBar (1.4.2):
+    - EasyNotificationBadge
+  - DifferenceKit (1.3.0):
+    - DifferenceKit/Core (= 1.3.0)
+    - DifferenceKit/UIKitExtension (= 1.3.0)
+  - DifferenceKit/Core (1.3.0)
+  - DifferenceKit/UIKitExtension (1.3.0):
+    - DifferenceKit/Core
+  - EasyNotificationBadge (1.2.5)
+
+DEPENDENCIES:
+  - AZTabBar
+  - DifferenceKit
+
+SPEC REPOS:
+  trunk:
+    - AZTabBar
+    - DifferenceKit
+    - EasyNotificationBadge
+
+SPEC CHECKSUMS:
+  AZTabBar: e4d5a1f5f3fc7be044d532b7a704d303cff9af11
+  DifferenceKit: ab185c4d7f9cef8af3fcf593e5b387fb81e999ca
+  EasyNotificationBadge: a3ebbcb1de0c0558e102e954380c75801f352702
+
+PODFILE CHECKSUM: 3c3671ebf4ff2785a641b14797e9f1b454401707
+
+COCOAPODS: 1.13.0

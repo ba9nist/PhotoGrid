@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AZTabBar/AZTabBar.framework
+${BUILT_PRODUCTS_DIR}/DifferenceKit/DifferenceKit.framework
+${BUILT_PRODUCTS_DIR}/EasyNotificationBadge/EasyNotificationBadge.framework

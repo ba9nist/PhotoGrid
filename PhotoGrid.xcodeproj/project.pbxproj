@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571D09552B1757B800EB387B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09542B1757B800EB387B /* AppDelegate.swift */; };
+		571D09572B1757B800EB387B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09562B1757B800EB387B /* SceneDelegate.swift */; };
+		571D095E2B1757B900EB387B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571D095D2B1757B900EB387B /* Assets.xcassets */; };
+		571D09612B1757B900EB387B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571D095F2B1757B900EB387B /* LaunchScreen.storyboard */; };
+		571D09692B17590200EB387B /* PhotoGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09682B17590200EB387B /* PhotoGridViewController.swift */; };
+		571D096E2B176D5D00EB387B /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D096D2B176D5D00EB387B /* CustomTabbarController.swift */; };
+		571D09702B1771EC00EB387B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D096F2B1771EC00EB387B /* RootViewController.swift */; };
+		571D09752B17808E00EB387B /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09742B17808E00EB387B /* UIView+Anchors.swift */; };
+		571D09772B17815900EB387B /* UIView+ReturnAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09762B17815900EB387B /* UIView+ReturnAnchors.swift */; };
+		571D09792B1783D600EB387B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09782B1783D600EB387B /* Colors.swift */; };
+		571D097B2B178C1F00EB387B /* GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D097A2B178C1F00EB387B /* GenderView.swift */; };
+		571D097F2B178DF300EB387B /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D097E2B178DF300EB387B /* ControlPanel.swift */; };
+		571D09812B178E2200EB387B /* ViewTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09802B178E2200EB387B /* ViewTemplate.swift */; };
+		571D09832B17985600EB387B /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09822B17985600EB387B /* LanguageView.swift */; };
+		571D09852B179B9C00EB387B /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09842B179B9C00EB387B /* Content.swift */; };
+		571D09872B179D1100EB387B /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09862B179D1100EB387B /* DataSource.swift */; };
+		571D09892B179FAB00EB387B /* PhotoGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09882B179FAB00EB387B /* PhotoGridCollectionViewCell.swift */; };
+		571D098B2B17A7D200EB387B /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D098A2B17A7D200EB387B /* PinterestLayout.swift */; };
+		571D098D2B17CA8D00EB387B /* AgeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D098C2B17CA8D00EB387B /* AgeSlider.swift */; };
+		571D098F2B17E96800EB387B /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D098E2B17E96800EB387B /* RangeSlider.swift */; };
+		571D09912B188AB900EB387B /* AgeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09902B188AB900EB387B /* AgeSelector.swift */; };
+		571D09932B18C22600EB387B /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09922B18C22600EB387B /* TitleView.swift */; };
+		78D658E93D82875D87458B02 /* Pods_PhotoGrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEE76BB30CDDF19C2B02B03 /* Pods_PhotoGrid.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01F18A6F7812A4AB692FCC89 /* Pods-PhotoGrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoGrid.release.xcconfig"; path = "Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid.release.xcconfig"; sourceTree = "<group>"; };
+		571D09512B1757B800EB387B /* PhotoGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		571D09542B1757B800EB387B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		571D09562B1757B800EB387B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		571D095D2B1757B900EB387B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		571D09602B1757B900EB387B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		571D09622B1757B900EB387B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		571D09682B17590200EB387B /* PhotoGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridViewController.swift; sourceTree = "<group>"; };
+		571D096D2B176D5D00EB387B /* CustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
+		571D096F2B1771EC00EB387B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		571D09742B17808E00EB387B /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		571D09762B17815900EB387B /* UIView+ReturnAnchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ReturnAnchors.swift"; sourceTree = "<group>"; };
+		571D09782B1783D600EB387B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		571D097A2B178C1F00EB387B /* GenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderView.swift; sourceTree = "<group>"; };
+		571D097E2B178DF300EB387B /* ControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
+		571D09802B178E2200EB387B /* ViewTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTemplate.swift; sourceTree = "<group>"; };
+		571D09822B17985600EB387B /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		571D09842B179B9C00EB387B /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		571D09862B179D1100EB387B /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		571D09882B179FAB00EB387B /* PhotoGridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridCollectionViewCell.swift; sourceTree = "<group>"; };
+		571D098A2B17A7D200EB387B /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		571D098C2B17CA8D00EB387B /* AgeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeSlider.swift; sourceTree = "<group>"; };
+		571D098E2B17E96800EB387B /* RangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		571D09902B188AB900EB387B /* AgeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeSelector.swift; sourceTree = "<group>"; };
+		571D09922B18C22600EB387B /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		685236968BE975BF1FAEB765 /* Pods-PhotoGrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoGrid.debug.xcconfig"; path = "Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid.debug.xcconfig"; sourceTree = "<group>"; };
+		7FEE76BB30CDDF19C2B02B03 /* Pods_PhotoGrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571D094E2B1757B800EB387B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D658E93D82875D87458B02 /* Pods_PhotoGrid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571D09482B1757B800EB387B = {
+			isa = PBXGroup;
+			children = (
+				571D09532B1757B800EB387B /* PhotoGrid */,
+				571D09522B1757B800EB387B /* Products */,
+				C57B2D8CDE457106EF58C01E /* Pods */,
+				8FB137CBCA40F5C3355729ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		571D09522B1757B800EB387B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571D09512B1757B800EB387B /* PhotoGrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571D09532B1757B800EB387B /* PhotoGrid */ = {
+			isa = PBXGroup;
+			children = (
+				571D096A2B17593E00EB387B /* App */,
+				571D09542B1757B800EB387B /* AppDelegate.swift */,
+				571D09562B1757B800EB387B /* SceneDelegate.swift */,
+				571D095D2B1757B900EB387B /* Assets.xcassets */,
+				571D095F2B1757B900EB387B /* LaunchScreen.storyboard */,
+				571D09622B1757B900EB387B /* Info.plist */,
+				571D096F2B1771EC00EB387B /* RootViewController.swift */,
+			);
+			path = PhotoGrid;
+			sourceTree = "<group>";
+		};
+		571D096A2B17593E00EB387B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				571D09762B17815900EB387B /* UIView+ReturnAnchors.swift */,
+				571D09742B17808E00EB387B /* UIView+Anchors.swift */,
+				571D09732B177D5200EB387B /* View */,
+				571D09682B17590200EB387B /* PhotoGridViewController.swift */,
+				571D09882B179FAB00EB387B /* PhotoGridCollectionViewCell.swift */,
+				571D096D2B176D5D00EB387B /* CustomTabbarController.swift */,
+				571D09782B1783D600EB387B /* Colors.swift */,
+				571D09842B179B9C00EB387B /* Content.swift */,
+				571D09862B179D1100EB387B /* DataSource.swift */,
+				571D098A2B17A7D200EB387B /* PinterestLayout.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		571D09732B177D5200EB387B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				571D097A2B178C1F00EB387B /* GenderView.swift */,
+				571D097E2B178DF300EB387B /* ControlPanel.swift */,
+				571D09802B178E2200EB387B /* ViewTemplate.swift */,
+				571D09822B17985600EB387B /* LanguageView.swift */,
+				571D098C2B17CA8D00EB387B /* AgeSlider.swift */,
+				571D098E2B17E96800EB387B /* RangeSlider.swift */,
+				571D09902B188AB900EB387B /* AgeSelector.swift */,
+				571D09922B18C22600EB387B /* TitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FB137CBCA40F5C3355729ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FEE76BB30CDDF19C2B02B03 /* Pods_PhotoGrid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C57B2D8CDE457106EF58C01E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				685236968BE975BF1FAEB765 /* Pods-PhotoGrid.debug.xcconfig */,
+				01F18A6F7812A4AB692FCC89 /* Pods-PhotoGrid.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571D09502B1757B800EB387B /* PhotoGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571D09652B1757B900EB387B /* Build configuration list for PBXNativeTarget "PhotoGrid" */;
+			buildPhases = (
+				37BD2676B0AD39EBE9DDD323 /* [CP] Check Pods Manifest.lock */,
+				571D094D2B1757B800EB387B /* Sources */,
+				571D094E2B1757B800EB387B /* Frameworks */,
+				571D094F2B1757B800EB387B /* Resources */,
+				3138FBF8C8CA72E35B898340 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoGrid;
+			productName = PhotoGrid;
+			productReference = 571D09512B1757B800EB387B /* PhotoGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571D09492B1757B800EB387B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					571D09502B1757B800EB387B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 571D094C2B1757B800EB387B /* Build configuration list for PBXProject "PhotoGrid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 571D09482B1757B800EB387B;
+			productRefGroup = 571D09522B1757B800EB387B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571D09502B1757B800EB387B /* PhotoGrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571D094F2B1757B800EB387B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571D09612B1757B900EB387B /* LaunchScreen.storyboard in Resources */,
+				571D095E2B1757B900EB387B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3138FBF8C8CA72E35B898340 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37BD2676B0AD39EBE9DDD323 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoGrid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571D094D2B1757B800EB387B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571D09872B179D1100EB387B /* DataSource.swift in Sources */,
+				571D097B2B178C1F00EB387B /* GenderView.swift in Sources */,
+				571D09702B1771EC00EB387B /* RootViewController.swift in Sources */,
+				571D09792B1783D600EB387B /* Colors.swift in Sources */,
+				571D098F2B17E96800EB387B /* RangeSlider.swift in Sources */,
+				571D09892B179FAB00EB387B /* PhotoGridCollectionViewCell.swift in Sources */,
+				571D09752B17808E00EB387B /* UIView+Anchors.swift in Sources */,
+				571D09832B17985600EB387B /* LanguageView.swift in Sources */,
+				571D09552B1757B800EB387B /* AppDelegate.swift in Sources */,
+				571D09572B1757B800EB387B /* SceneDelegate.swift in Sources */,
+				571D098D2B17CA8D00EB387B /* AgeSlider.swift in Sources */,
+				571D09852B179B9C00EB387B /* Content.swift in Sources */,
+				571D097F2B178DF300EB387B /* ControlPanel.swift in Sources */,
+				571D09812B178E2200EB387B /* ViewTemplate.swift in Sources */,
+				571D098B2B17A7D200EB387B /* PinterestLayout.swift in Sources */,
+				571D096E2B176D5D00EB387B /* CustomTabbarController.swift in Sources */,
+				571D09912B188AB900EB387B /* AgeSelector.swift in Sources */,
+				571D09772B17815900EB387B /* UIView+ReturnAnchors.swift in Sources */,
+				571D09692B17590200EB387B /* PhotoGridViewController.swift in Sources */,
+				571D09932B18C22600EB387B /* TitleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		571D095F2B1757B900EB387B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571D09602B1757B900EB387B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		571D09632B1757B900EB387B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		571D09642B1757B900EB387B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		571D09662B1757B900EB387B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685236968BE975BF1FAEB765 /* Pods-PhotoGrid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9749P26KBL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoGrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.test.PhotoGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		571D09672B1757B900EB387B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F18A6F7812A4AB692FCC89 /* Pods-PhotoGrid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9749P26KBL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoGrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.test.PhotoGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571D094C2B1757B800EB387B /* Build configuration list for PBXProject "PhotoGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571D09632B1757B900EB387B /* Debug */,
+				571D09642B1757B900EB387B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571D09652B1757B900EB387B /* Build configuration list for PBXNativeTarget "PhotoGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571D09662B1757B900EB387B /* Debug */,
+				571D09672B1757B900EB387B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 571D09492B1757B800EB387B /* Project object */;
+}
