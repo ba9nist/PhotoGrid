@@ -29,6 +29,8 @@
 		571D098F2B17E96800EB387B /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D098E2B17E96800EB387B /* RangeSlider.swift */; };
 		571D09912B188AB900EB387B /* AgeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09902B188AB900EB387B /* AgeSelector.swift */; };
 		571D09932B18C22600EB387B /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09922B18C22600EB387B /* TitleView.swift */; };
+		571D09952B19FB7700EB387B /* TappableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09942B19FB7700EB387B /* TappableLabel.swift */; };
+		571D09972B1A006100EB387B /* CustomTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09962B1A006100EB387B /* CustomTimer.swift */; };
 		78D658E93D82875D87458B02 /* Pods_PhotoGrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEE76BB30CDDF19C2B02B03 /* Pods_PhotoGrid.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		571D098E2B17E96800EB387B /* RangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
 		571D09902B188AB900EB387B /* AgeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeSelector.swift; sourceTree = "<group>"; };
 		571D09922B18C22600EB387B /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		571D09942B19FB7700EB387B /* TappableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableLabel.swift; sourceTree = "<group>"; };
+		571D09962B1A006100EB387B /* CustomTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimer.swift; sourceTree = "<group>"; };
 		685236968BE975BF1FAEB765 /* Pods-PhotoGrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoGrid.debug.xcconfig"; path = "Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid.debug.xcconfig"; sourceTree = "<group>"; };
 		7FEE76BB30CDDF19C2B02B03 /* Pods_PhotoGrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,6 +123,7 @@
 				571D09842B179B9C00EB387B /* Content.swift */,
 				571D09862B179D1100EB387B /* DataSource.swift */,
 				571D098A2B17A7D200EB387B /* PinterestLayout.swift */,
+				571D09962B1A006100EB387B /* CustomTimer.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 				571D098E2B17E96800EB387B /* RangeSlider.swift */,
 				571D09902B188AB900EB387B /* AgeSelector.swift */,
 				571D09922B18C22600EB387B /* TitleView.swift */,
+				571D09942B19FB7700EB387B /* TappableLabel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,11 +287,13 @@
 				571D09572B1757B800EB387B /* SceneDelegate.swift in Sources */,
 				571D098D2B17CA8D00EB387B /* AgeSlider.swift in Sources */,
 				571D09852B179B9C00EB387B /* Content.swift in Sources */,
+				571D09972B1A006100EB387B /* CustomTimer.swift in Sources */,
 				571D097F2B178DF300EB387B /* ControlPanel.swift in Sources */,
 				571D09812B178E2200EB387B /* ViewTemplate.swift in Sources */,
 				571D098B2B17A7D200EB387B /* PinterestLayout.swift in Sources */,
 				571D096E2B176D5D00EB387B /* CustomTabbarController.swift in Sources */,
 				571D09912B188AB900EB387B /* AgeSelector.swift in Sources */,
+				571D09952B19FB7700EB387B /* TappableLabel.swift in Sources */,
 				571D09772B17815900EB387B /* UIView+ReturnAnchors.swift in Sources */,
 				571D09692B17590200EB387B /* PhotoGridViewController.swift in Sources */,
 				571D09932B18C22600EB387B /* TitleView.swift in Sources */,

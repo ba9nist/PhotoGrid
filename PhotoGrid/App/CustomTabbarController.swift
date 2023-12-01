@@ -17,6 +17,15 @@ class CustomTabbarController: UITabBarController {
         "Menu-Favorites"
     ]
     
+    let selectedTabbarImageNames: [String] = [
+        "SelectedMenu-Profile",
+        "SelectedMenu-Search",
+        "SelectedMenu-Videochat",
+        "SelectedMenu-Messages",
+        "SelectedMenu-Gallery",
+        "SelectedMenu-Favorites"
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -37,7 +46,7 @@ class CustomTabbarController: UITabBarController {
     
     func buildGallery() -> UIViewController {
         let controller = PhotoGridViewController()
-        controller.tabBarItem = UITabBarItem(title: nil, image: UIImage(named: tabbarImageNames[4])?.withRenderingMode(.alwaysOriginal), selectedImage: nil)
+        controller.tabBarItem = UITabBarItem(title: nil, image: UIImage(named: tabbarImageNames[4])?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: selectedTabbarImageNames[4])?.withRenderingMode(.alwaysOriginal))
         return controller
     }
     
@@ -49,7 +58,7 @@ class CustomTabbarController: UITabBarController {
                                                   alpha: 1)
         controller.tabBarItem = UITabBarItem(title: nil,
                                              image: UIImage(named: tabbarImageNames[index])?.withRenderingMode(.alwaysOriginal),
-                                             selectedImage: nil)
+                                             selectedImage: UIImage(named: selectedTabbarImageNames[index])?.withRenderingMode(.alwaysOriginal))
         return controller
     }
 }

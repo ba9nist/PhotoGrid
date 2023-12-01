@@ -22,12 +22,14 @@ class PhotoGridViewController: UIViewController {
         let slider = RangeSlider()
         slider.maximumValue = 65
         slider.minimumValue = 18
-        slider.lowerValue = 22
-        slider.upperValue = 49
+        slider.lowerValue = 21
+        slider.upperValue = 47
         slider.thumbTintColor = Colors.mainBlue
         slider.trackTintColor = Colors.bgColor
         slider.trackHighlightTintColor = Colors.sliderColor
         slider.addTarget(self, action: #selector(onSliderValueChanged), for: .valueChanged)
+        slider.clipsToBounds = true
+        slider.isHidden = true
         
         return slider
     }()
@@ -51,6 +53,12 @@ class PhotoGridViewController: UIViewController {
     
     var collectionData = [PersonCard]()
     var generatedData: [PersonCard] = []
+    
+    var ageSliderHeightConstraint: NSLayoutConstraint?
+    var ageSliderTopContraint: NSLayoutConstraint?
+    var shouldShowAgeSlider = false
+    
+    lazy var debounceTimer = CustomTimer(time: 0.3, repeats: false, target: self, action: #selector(handleTimerEvent))
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -80,13 +88,16 @@ class PhotoGridViewController: UIViewController {
         columnCount = size.width > 400 ? 5 : 3
     }
     
+    @objc private func handleTimerEvent() {
+        let lowValue = Int(ageControl.lowerValue)
+        let highValue = Int(ageControl.upperValue)
+        
+        controlsView.updateAgeLabelText(low: lowValue, high: highValue)
+        updateCollection()
+    }
+    
     @objc private func onSliderValueChanged(_ slider: RangeSlider) {
-        let lowValue = Int(slider.lowerValue)
-        let highValue = Int(slider.upperValue)
-        
-        let newData = generatedData.filter{ $0.age >= lowValue && $0.age <= highValue }
-        
-        updateCollection(with: newData)
+        debounceTimer.reset()
     }
     
     private func setupView() {
@@ -107,17 +118,19 @@ class PhotoGridViewController: UIViewController {
             .anchorTrailing(view.trailingAnchor, 0)
             .anchorHeight(32)
         
+        
+        ageControl
+            .anchorLeading(view.leadingAnchor, 16)
+            .anchorTrailing(view.trailingAnchor, 16)
+            
+        ageSliderTopContraint = ageControl._anchorTop(controlsView.bottomAnchor, 0)
+        ageSliderHeightConstraint = ageControl._anchorHeight(0)
+        
         collectionView
-            .anchorTop(controlsView.bottomAnchor, 50)
+            .anchorTop(ageControl.bottomAnchor, 16)
             .anchorBottom(view.safeAreaLayoutGuide.bottomAnchor, 0)
             .anchorLeading(view.leadingAnchor, 0)
             .anchorTrailing(view.trailingAnchor, 0)
-        
-        ageControl
-            .anchorTop(controlsView.bottomAnchor, 8)
-            .anchorLeading(view.leadingAnchor, 16)
-            .anchorTrailing(view.trailingAnchor, 16)
-            .anchorHeight(32)
     }
     
     private func calculateHeightOfNavbar() -> CGFloat {
@@ -143,7 +156,20 @@ class PhotoGridViewController: UIViewController {
         navigationItem.title = "New Photos"
     }
     
-    private func updateCollection(with newData: [PersonCard]) {
+    private func updateCollection() {
+        var newData: [PersonCard]
+        let gender = controlsView.genderView.selectedGender
+        
+        switch gender {
+        case .male: newData = generatedData.filter{ $0.gender == .male }
+        case .female: newData = generatedData.filter{ $0.gender == .female }
+        case .both: newData = generatedData
+        }
+        
+        let lowValue = Int(ageControl.lowerValue)
+        let highValue = Int(ageControl.upperValue)
+        newData = newData.filter{ $0.age >= lowValue && $0.age <= highValue }
+        
         let diff = StagedChangeset(source: collectionData, target: newData)
 
         collectionView.reload(using: diff) { data in
@@ -185,14 +211,24 @@ extension PhotoGridViewController: PinterestLayoutDelegate {
 }
 
 extension PhotoGridViewController: ControlPanelDelegate {
-    func didSwitchGender(to gender: GenderView.Gender) {
-        var newData: [PersonCard]
-        switch gender {
-        case .male: newData = generatedData.filter{ $0.gender == .male }
-        case .female: newData = generatedData.filter{ $0.gender == .female }
-        case .both: newData = generatedData
-        }
+    func didTapAgeButton() {
+        shouldShowAgeSlider = !shouldShowAgeSlider
         
-        updateCollection(with: newData)
+        ageSliderHeightConstraint?.constant = shouldShowAgeSlider ? 32 : 0
+        ageSliderTopContraint?.constant = shouldShowAgeSlider ? 16 : 0
+        ageControl.isHidden = true
+        
+        controlsView.updateAgeLabelColor(isSelected: shouldShowAgeSlider)
+        
+        UIView.animate(withDuration: 0.1) {
+            self.view.layoutIfNeeded()
+        } completion: { _ in
+            self.ageControl.isHidden = !self.shouldShowAgeSlider
+        }
+
+    }
+    
+    func didSwitchGender(to gender: GenderView.Gender) {
+        updateCollection()
     }
 }

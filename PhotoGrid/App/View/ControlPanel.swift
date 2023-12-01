@@ -9,20 +9,35 @@ import UIKit
 
 protocol ControlPanelDelegate: AnyObject {
     func didSwitchGender(to gender: GenderView.Gender)
+    func didTapAgeButton()
 }
 
 class ControlPanel: UIView {
     open weak var delegate: ControlPanelDelegate?
     
+    open func updateAgeLabelColor(isSelected: Bool) {
+        ageFilterLabel.textColor = isSelected ? Colors.ageLabelColor : Colors.mainBlue
+    }
+    
+    open func updateAgeLabelText(low: Int, high: Int) {
+        ageFilterLabel.text = "\(low)-\(high)"
+    }
+    
     let genderView = GenderView()
     let languageView = LanguageView()
     
-    let ageFilterLabel: UILabel = {
-        let label = UILabel()
+    lazy var ageFilterLabel: UILabel = {
+        let label = TappableLabel()
         label.text = "21-47"
         label.textAlignment = .center
         label.textColor = Colors.mainBlue
         label.font = UIFont.boldSystemFont(ofSize: 13)
+        label.isUserInteractionEnabled = true
+        
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(didTapOnAgeLabel))
+        tapRecognizer.cancelsTouchesInView = false
+        label.addGestureRecognizer(tapRecognizer)
+        
         return label
     }()
     
@@ -45,6 +60,10 @@ class ControlPanel: UIView {
         stackView.fillSuperview()
         
         genderView.delegate = self
+    }
+    
+    @objc private func didTapOnAgeLabel() {
+        delegate?.didTapAgeButton()
     }
     
     private func buildLine() -> UIView {
