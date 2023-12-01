@@ -47,6 +47,7 @@ class CustomTabbarController: UITabBarController {
     func buildGallery() -> UIViewController {
         let controller = PhotoGridViewController()
         controller.tabBarItem = UITabBarItem(title: nil, image: UIImage(named: tabbarImageNames[4])?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: selectedTabbarImageNames[4])?.withRenderingMode(.alwaysOriginal))
+        controller.tabBarItem.imageInsets = UIEdgeInsets(top: 6, left: 0, bottom: -6, right: 0)
         return controller
     }
     
@@ -59,6 +60,7 @@ class CustomTabbarController: UITabBarController {
         controller.tabBarItem = UITabBarItem(title: nil,
                                              image: UIImage(named: tabbarImageNames[index])?.withRenderingMode(.alwaysOriginal),
                                              selectedImage: UIImage(named: selectedTabbarImageNames[index])?.withRenderingMode(.alwaysOriginal))
+        controller.tabBarItem.imageInsets = UIEdgeInsets(top: 8, left: 0, bottom: -8, right: 0)
         return controller
     }
 }

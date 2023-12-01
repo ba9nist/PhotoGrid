@@ -19,15 +19,11 @@
 		571D09792B1783D600EB387B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09782B1783D600EB387B /* Colors.swift */; };
 		571D097B2B178C1F00EB387B /* GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D097A2B178C1F00EB387B /* GenderView.swift */; };
 		571D097F2B178DF300EB387B /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D097E2B178DF300EB387B /* ControlPanel.swift */; };
-		571D09812B178E2200EB387B /* ViewTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09802B178E2200EB387B /* ViewTemplate.swift */; };
 		571D09832B17985600EB387B /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09822B17985600EB387B /* LanguageView.swift */; };
-		571D09852B179B9C00EB387B /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09842B179B9C00EB387B /* Content.swift */; };
 		571D09872B179D1100EB387B /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09862B179D1100EB387B /* DataSource.swift */; };
 		571D09892B179FAB00EB387B /* PhotoGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09882B179FAB00EB387B /* PhotoGridCollectionViewCell.swift */; };
 		571D098B2B17A7D200EB387B /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D098A2B17A7D200EB387B /* PinterestLayout.swift */; };
-		571D098D2B17CA8D00EB387B /* AgeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D098C2B17CA8D00EB387B /* AgeSlider.swift */; };
 		571D098F2B17E96800EB387B /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D098E2B17E96800EB387B /* RangeSlider.swift */; };
-		571D09912B188AB900EB387B /* AgeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09902B188AB900EB387B /* AgeSelector.swift */; };
 		571D09932B18C22600EB387B /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09922B18C22600EB387B /* TitleView.swift */; };
 		571D09952B19FB7700EB387B /* TappableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09942B19FB7700EB387B /* TappableLabel.swift */; };
 		571D09972B1A006100EB387B /* CustomTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571D09962B1A006100EB387B /* CustomTimer.swift */; };
@@ -50,15 +46,11 @@
 		571D09782B1783D600EB387B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		571D097A2B178C1F00EB387B /* GenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderView.swift; sourceTree = "<group>"; };
 		571D097E2B178DF300EB387B /* ControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
-		571D09802B178E2200EB387B /* ViewTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTemplate.swift; sourceTree = "<group>"; };
 		571D09822B17985600EB387B /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
-		571D09842B179B9C00EB387B /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		571D09862B179D1100EB387B /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		571D09882B179FAB00EB387B /* PhotoGridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridCollectionViewCell.swift; sourceTree = "<group>"; };
 		571D098A2B17A7D200EB387B /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
-		571D098C2B17CA8D00EB387B /* AgeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeSlider.swift; sourceTree = "<group>"; };
 		571D098E2B17E96800EB387B /* RangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
-		571D09902B188AB900EB387B /* AgeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeSelector.swift; sourceTree = "<group>"; };
 		571D09922B18C22600EB387B /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		571D09942B19FB7700EB387B /* TappableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableLabel.swift; sourceTree = "<group>"; };
 		571D09962B1A006100EB387B /* CustomTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimer.swift; sourceTree = "<group>"; };
@@ -120,7 +112,6 @@
 				571D09882B179FAB00EB387B /* PhotoGridCollectionViewCell.swift */,
 				571D096D2B176D5D00EB387B /* CustomTabbarController.swift */,
 				571D09782B1783D600EB387B /* Colors.swift */,
-				571D09842B179B9C00EB387B /* Content.swift */,
 				571D09862B179D1100EB387B /* DataSource.swift */,
 				571D098A2B17A7D200EB387B /* PinterestLayout.swift */,
 				571D09962B1A006100EB387B /* CustomTimer.swift */,
@@ -133,11 +124,8 @@
 			children = (
 				571D097A2B178C1F00EB387B /* GenderView.swift */,
 				571D097E2B178DF300EB387B /* ControlPanel.swift */,
-				571D09802B178E2200EB387B /* ViewTemplate.swift */,
 				571D09822B17985600EB387B /* LanguageView.swift */,
-				571D098C2B17CA8D00EB387B /* AgeSlider.swift */,
 				571D098E2B17E96800EB387B /* RangeSlider.swift */,
-				571D09902B188AB900EB387B /* AgeSelector.swift */,
 				571D09922B18C22600EB387B /* TitleView.swift */,
 				571D09942B19FB7700EB387B /* TappableLabel.swift */,
 			);
@@ -285,14 +273,10 @@
 				571D09832B17985600EB387B /* LanguageView.swift in Sources */,
 				571D09552B1757B800EB387B /* AppDelegate.swift in Sources */,
 				571D09572B1757B800EB387B /* SceneDelegate.swift in Sources */,
-				571D098D2B17CA8D00EB387B /* AgeSlider.swift in Sources */,
-				571D09852B179B9C00EB387B /* Content.swift in Sources */,
 				571D09972B1A006100EB387B /* CustomTimer.swift in Sources */,
 				571D097F2B178DF300EB387B /* ControlPanel.swift in Sources */,
-				571D09812B178E2200EB387B /* ViewTemplate.swift in Sources */,
 				571D098B2B17A7D200EB387B /* PinterestLayout.swift in Sources */,
 				571D096E2B176D5D00EB387B /* CustomTabbarController.swift in Sources */,
-				571D09912B188AB900EB387B /* AgeSelector.swift in Sources */,
 				571D09952B19FB7700EB387B /* TappableLabel.swift in Sources */,
 				571D09772B17815900EB387B /* UIView+ReturnAnchors.swift in Sources */,
 				571D09692B17590200EB387B /* PhotoGridViewController.swift in Sources */,

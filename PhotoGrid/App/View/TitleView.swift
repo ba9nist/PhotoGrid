@@ -18,7 +18,7 @@ class TitleView: UIView {
     
     let titleLabel: UILabel = {
         let view = UILabel()
-        view.font = UIFont.boldSystemFont(ofSize: 23)
+        view.font = UIFont.boldSystemFont(ofSize: UIDevice.current.userInterfaceIdiom == .pad ? 21 : 23)
         view.textColor = .white
         view.text = "New Photos"
         view.textAlignment = .center

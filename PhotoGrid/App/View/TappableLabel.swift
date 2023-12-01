@@ -12,13 +12,11 @@ class TappableLabel: UILabel {
         super.touchesBegan(touches, with: event)
         
         backgroundColor = Colors.bgColor
-//        textColor = .white
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         
         backgroundColor = .white
-//        textColor = Colors.mainBlue
     }
 }

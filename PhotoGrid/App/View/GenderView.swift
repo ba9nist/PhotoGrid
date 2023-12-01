@@ -75,14 +75,12 @@ class GenderView: UIView {
         super.touchesBegan(touches, with: event)
         
         backgroundColor = Colors.bgColor
-//        contentView.titleLabel.textColor = .white
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         
         backgroundColor = .white
-//        contentView.titleLabel.textColor = Colors.mainBlue
     }
     
     init() {
